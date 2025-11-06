@@ -4,13 +4,14 @@ from datetime import datetime, timedelta
 # -------- Level 1 --------
 # TODO: Create a function to view all books that are currently available
 # Output should include book ID, title, and author
-
+def view_Books():
+    
 
 # -------- Level 2 --------
 # TODO: Create a function to search books by author OR genre
 # Search should be case-insensitive
 # Return a list of matching books
-
+ def search_Books():
 
 # -------- Level 3 --------
 # TODO: Create a function to checkout a book by ID
@@ -20,15 +21,15 @@ from datetime import datetime, timedelta
 #   - Increment the checkouts counter
 # If it is not available:
 #   - Print a message saying it's already checked out
-
+  def checkout_Book():
 
 # -------- Level 4 --------
 # TODO: Create a function to return a book by ID
 # Set its availability to True and clear the due_date
-
+   def return_Book():
 # TODO: Create a function to list all overdue books
 # A book is overdue if its due_date is before today AND it is still checked out
-
+  
 
 # -------- Level 5 --------
 # TODO: Convert your data into a Book class with methods like checkout() and return_book()
@@ -42,6 +43,6 @@ from datetime import datetime, timedelta
 # - Save/load catalog to file (CSV or JSON)
 # - Anything else you want to build on top of the system!
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     # You can use this space to test your functions
-    pass
+     pass
